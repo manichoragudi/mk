@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mani Choragudi's page</title>
-
+    <title>Mani's RESUME</title>
+    <style>
+        tr,td,th{
+            border: 1px solid black;
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+        body{ background-image: url(bg.jpg);
+           
+        }
+    </style>
 </head>
-
 <body>
-    <header style="text-align: center; background-color: lightgray;font-size:x-large;;">Mani's First Website</header>
-    <nav> 
-        <span>EDUCATIONAL QUALIFICATIONS</span>
-        <span>STRENGTHS</span>
-        <span>TECHNICAL SKILLS</span>
-        
-        <li>MINI PROJECTS</li>
-        <li>HOBBIES</li>
-        <li>PERSONAL PROFILE</li>
-    </ul> </nav>
+    <header style="text-align: center; background-color:dodgerblue;font-size:x-large;color: white;" id="TOP">Mani's First Website</header>
+    <hr>
+    <nav style="font-size: large;background-color:yellow;"> 
+        <a href="#CO">SUMMARY |</a> &nbsp;
+        <a href="#ED">EDUCATIONAL QUALIFICATIONS |</a>&nbsp;
+        <a href="#TS">TECHNICAL SKILLS |</a>&nbsp;
+        <a href="#MP">MINI PROJECTS |</a>&nbsp;
+        <a href="#H">HOBBIES |</a>&nbsp;
+        <a href="#PP">PERSONAL PROFILE |</a>&nbsp;
+       
+     </nav><hr>
     <!-- 
     <div style="background-color: antiquewhite;font-size:larger;">
         <h1>HTML - OVERVIEW:</h1>
@@ -110,15 +120,15 @@
         <p>This is a <sup>superscript</sup> and a <sub>subscript</sub> word.</p>
     </div> -->
 
-    <h1 style="text-align: center;">MY RESUME</h1>
+    <h1   style="text-align: center;">MY RESUME</h1>
     <hr>
-
     <p>
-        <img src="me11.jpg" alt="myself" style="width: 150px;height: 150px;padding-bottom: 1px;" align="right">
+        <img src="me11.jpg" alt="myself" style="width: 150px;height: 150px;padding-bottom: 1px;padding-right: 10px;" align="right">
         <address style="padding-top: 1cm;font-size: large;padding-bottom: 1cm;">
             Name : Choragudi Mani Bhushan <br>
             Email Id : <a href="mailto:">manichoragudi9999@gmail.com</a> <br>
-            Phone No : <a href="mailto:">+916302088019</a>
+            Phone No : <a href="mailto:">+916302088019</a><br>
+            Address  : D.No 3-14 , Valivarthipadu , Gudivada ,Kri dt, A.P , 521301.
         </address>
 
     </p>
@@ -126,14 +136,14 @@
 
     <div style="font-size: large; background-color: aliceblue;" width="100%">
         <p>
-            <h2>CAREER OBJECTIVE :</h2>
+            <h2 id="CO">SUMMARY :</h2>
             <q> To work hard with full dedication for the achievement of organization objective under
                 satisfying job contact, hence enhancing my skills and knowledge and ready to learn new things.</q>
         </p>
     </div>
     <hr>
     <div style="font-size: large; background-color: antiquewhite;">
-        <h2>EDUCATIONAL QUALIFICATIONS :</h2>
+        <h2 id="ED">EDUCATIONAL QUALIFICATIONS :</h2>
 
         <table id="mani" style="width:100%; border: 1px solid black;">
             <thead style="text-align:left ;">
@@ -166,12 +176,11 @@
 
             </tbody>
 
-        </table>
+        </table> <br>
 
-    </div>
-
+    </div><hr>
     <div style="font-size: large; background-color: aliceblue;">
-        <h2>STRENGTHS :</h2>
+        <h2 id="STR">STRENGTHS :</h2>
         <ul type="square">
             <li>Hard Working.</li>
             <li>Positive Thinking.</li>
@@ -179,38 +188,43 @@
             <li>Quick Learning.</li>
         </ul>
         <hr>
-        <h2> TECHNICAL SKILLS :</h2>
+    </div>
+    <div style="font-size: large; background-color:beige">
+        <h2 id="TS"> TECHNICAL SKILLS :</h2>
         <ul type="disc">
             <li>Programming Languages : c , java</li>
             <li>Databases : Oracle , SQL, PLSQL</li>
             <li>Web Technologies : HTML, C S S , Bootstrap ,JS</li>
             <li>Operating Systems : MS Windows</li>
             <li>Ms Office : Excel, Power Point Presentations, Word</li>
-        </ul>
-        <hr>
-        <h2> MINI PROJECTS :</h2>
+        </ul> 
+    </div> <hr>
+    <div style="font-size: large; background-color:gainsboro;">
+        <h2 id="MP"> MINI PROJECTS :</h2>
         <ul type="square">
             <li><strong>Created a Web application on Organic forming by using of HTML, BOOTSTRAP, CSS,
                     JavaScript, PHP and MySQL </strong><br>
                 Project details: Online Organic store is a form of ecommerce that allows consumers to
                 directly buy fresh food staffs or produce from a seller over the internet. It evokes the
                 physical analogy of buying produce like it is done in a local market.</li>
-            <li><strong>Completed Short internship on Salesforce developer.</strong></li>
-        </ul>
-        <hr>
-        <h2> HOBBIES :</h2>
-        <ul>
-            <li>Playing Cricket.</li>
-            <li>Internet Browsing</li>
-            <li>Listening Music.</li>
-            <li>Playing Music.</li>
-            <li>Reading Books</li>
-        </ul>
+            <li><strong>Completed Short internship on Salesforce developer.</strong></li><br>
+        </ul> <hr>
     </div>
-    <div style="font-size:large; background-color:antiquewhite;">
-        <h2>PERSONAL PROFILE :</h2>
-        <p>
-            <pre style="font-size: large;">
+    <div style="font-size: large; background-color:aliceblue;">
+       <h2 id="H">INTERESTS AND HOBBIES :</h2>
+       <ul>
+           <li>Playing Cricket.</li>
+           <li>Internet Browsing</li>
+           <li>Listening Music.</li>
+           <li>Playing Music.</li>
+           <li>Reading Books</li>
+       </ul> <br>
+   </div>
+   <hr>
+   <div style="font-size:large; background-color:antiquewhite;">
+       <h2 id="PP">PERSONAL PROFILE :</h2>
+       <p>
+           <pre style="font-size: larger;">
   Name            : Choragudi Mani Bhushan
   Father’s Name   : Choragudi Mohana Rao
   Date of Birth   : 06/04/2002
@@ -218,20 +232,23 @@
   Marital Status  : Single
   Languages known : Telugu, English
   Nationality     : Indian</pre>
-        </p>
+       </p>
+       <br>
+   </div>
+   <hr>
+   <div style="font-size:large">
+       <h2 id="DD">DECLARATION :</h2>
+       <P>I hereby declare that the above-mentioned information is true and authentic.</P><br>
+       <p style="text-align: right;"><strong>(Choragudi Mani Bhushan)</strong></p>
+   </div>
+   <hr>
+   <a href="#TOP" style="font-size: larger;"> MOVE TO TOP</a>
 
-    </div>
-    <div style="font-size:large">
-        <h2>DECLARATION :</h2>
-        <P>I hereby declare that the above-mentioned information is true and authentic.</P>
-        <p style="text-align: right;"><strong>(Choragudi Mani Bhushan)</strong></p>
-    </div>
-    <hr>
-    <footer>
-        <div style="text-align: center;background-color:gainsboro; font-size: medium;">
-            copyrights@2023 © manichoragudi9999, All Rights Reserved</p>
-        </div>
-    </footer>
-</body>
-
-</html>
+   <footer>
+       <div style="text-align: center;background-color:darkgray; font-size: large;">
+           copyrights@2023 © manichoragudi9999, All Rights Reserved</p>
+         
+       </div>
+   </footer>
+   </body>
+   </html>
